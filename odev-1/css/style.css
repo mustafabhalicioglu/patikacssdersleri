@@ -29,3 +29,29 @@ ul {
     text-align: center;
     list-style:decimal;                
 }
+
+h5 {
+    text-align: left;
+    
+}
+/* buton ile ilgili komutlar aşağıda */
+button {
+    background-color: beige;
+    color: black;
+    font-size: 16px;
+    padding: 20px 40px;
+    border-radius: 30px;  
+    border: none; 
+    transition-duration: 0.4s; 
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
+    text-decoration: none;
+    position:absolute; right: 0
+}
+
+/* Butonun üzerine geldiğimizde renk vermek için HOVER özelliği kullanmamız lazım aşağıdaki gibi */
+button:hover {
+
+    background-color: #e67e22; /*Carrot*/   
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24)
+}  
