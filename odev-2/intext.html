@@ -4,9 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Google ODEVI</title>
+    <link rel="stylesheet" href="style.css">
+    <link type="image/x-icon" rel="icon" href="img/favicon.ico" >
 </head>
 <body>
-    
+    <!-- ***********************Google'ın 1998'deki sayfası*********************************************
+         Normalde odev tamamen html dosyası içerisinde ve inline css komutları kullanılarak hazırlanabilirdi. Ancak css dersinin ödevi olduğu için "external css" kullanılarak hazırlandı. <head> kısmına css dosyasına bir "link" eklendi. Ortalama işlemi,  external css kullanılarak bodytag üzerinden yapıldı NOT: HTML-5'de olmayan ama çalışan <center> komutuyla da bu işlem body içerisinde hiç css kullanmadan yapılabilirdi. 
+    *******************************************************************************************************-->
+    <img src="img/google.jpg" alt="Google!">
+
+    <!-- Öncelikle resmin altındaki copyright hariç bütü verileri kapsayan bir table oluşturuldu ve buna container class'ı atandı -->
+    <table class="container">
+        <tbody>
+            <tr>
+                <!-- Birinci td'ye colspan=3 eklendi. bunun sebebi bu özellik eklenmeden önce aşağıdaki tr 3 tane td içerdiğinden bu td birinci td'nin boyutuna gelip solda kalıyordu. ancak colspan="3" deyince alttaki 3 hücre kadar genişledi ve onlarla aynı boyuta geldi. Colspan özelliği sütun üzerinde kaç tane hücrenin birleştirileceğini belirtir.-->
+                <td class="search" colspan="3">
+                    Search the web using Google! 
+                    <br>
+                    <input type="text" name="q" value size="40">
+                    <br>
+                    <input type="submit" value="Google Search">
+                    <input type="submit" value="I'm felling lucky">
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-left">
+                    Special Searches
+                    <br>
+                    <a href="https://searchworks.stanford.edu/">Stanford Search</a>
+                    <br>
+                    <a href="https://www.google.com/linux">Linux Search</a>
+                    <br>
+                </td>
+
+                <td class="td-middle">
+                    <a href="help.html">Help!</a>
+                    <br>
+                    <a href="about.html">About Google!</a>
+                    <br>
+                    <a href="company.html">Company Info</a>
+                    <br>
+                    <a href="stickers.html">Google! Logos</a>
+                    <br>
+                </td>
+                
+                <td class="td-right">
+                    Get Google!
+                    <br>
+                    updates monthly:
+                    <br>
+                    <input type="email" name="emailaddr" value="your e-mail">
+                    <br>
+                    <input type="submit" name="SubmitAction" value="Subscribe">
+                    <a href="https://web.archive.org/web/19990116224431/http://www.findmail.com/list/google-friends">Archive</a>
+                </td>
+            </tr>
+        </tbody>
+
+    </table>
+    <div class="copyright">
+        <p>Copyright ©1998 Google Inc.</p>
+    </div>
 </body>
 </html>

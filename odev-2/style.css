@@ -1,0 +1,41 @@
+
+body {
+    background-color: #FFFFFF;
+    text-align: center;
+
+
+}
+
+/* margin-left ve margin-right'ı auto yapmayınca tablolar sola çekiyor ve tam ortalamıyordu. her ikisi de auto yapıldı*/
+.container {
+    border: 0px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search {
+    background-color: #EEEEEE;
+    text-align: center;
+        
+}
+
+.td-left {
+    background-color: #7EE5DA;
+    width: 37%;
+
+}
+
+.td-middle {
+    background-color: #70CCC2;
+    font-size: small;
+}
+
+.td-right {
+    background-color: #62B3AA;
+    font-size: small;
+}
+
+.copyright {
+    font-size: small;
+}
